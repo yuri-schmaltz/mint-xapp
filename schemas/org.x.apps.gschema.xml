@@ -15,6 +15,10 @@
       <default>[]</default>
       <summary>List of gvfs metadata for the favorites:/// root (for remembering sort order in nemo, etc).</summary>
     </key>
+    <key name="sync-file-metadata" type="b">
+      <default>false</default>
+      <summary>Whether to sync favorites status to file metadata (GVfs attributes).</summary>
+    </key>
   </schema>
 
   <schema id="org.x.apps.statusicon" path="/org/x/apps/statusicon/">
